@@ -25,7 +25,6 @@
 	echo sprintf('Convert %s to HEX: %s%s',$color,$colorConvert->toHex(),"\n");
 	echo sprintf('Convert %s to RGB: %s%s',$color,$colorConvert->toRGB(),"\n");
 	echo sprintf('Convert %s to ANSI: %s%s',$color,$colorConvert->toANSI(),"\n");
-	echo sprintf('Convert %s to ANSI: %s%s',$color,$colorConvert->toString(),"\n");
-
+	echo sprintf('Convert %s to STRING: %s%s',$color,$colorConvert->toString(),"\n");
 
 	echo "\n";

@@ -1,7 +1,9 @@
 {
-	"autoload":{
-		"psr-4": { "" : "src/" }
-	},
+	"name": "stange/conversion",
+	"type": "library",
+	"description": "Conversion utilities for meassures, colors and more",
+	"keywords": ["conversion","color","unit"],
+	"homepage": "https://github.com/pthreat/conversion",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
@@ -14,6 +16,9 @@
 					"irc": "irc://irc.freenode.net/lunfardo"
 	},
 	"require": {
-					"php": "^5.4"
+					"php": ">=5.4"
+	},
+	"autoload":{
+		"psr-4": { "" : "src/" }
 	}
 }
