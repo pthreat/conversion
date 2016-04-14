@@ -1,12 +1,7 @@
 #!/usr/bin/php
 <?php
 
-	ini_set('display_errors','On');
-	error_reporting(E_ALL);
-
-	set_include_path(realpath(__DIR__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR);
-
-	require 'Color.class.php';
+	require '_init.php';
 
 	use \stange\util\conversion\Color	as	ColorConvert;
 

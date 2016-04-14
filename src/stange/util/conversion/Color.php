@@ -6,7 +6,7 @@
 	 * @author Federico Stange (pthreat) <jpfstange@gmail.com>
 	 * @license 3 Clause BSD 
 	 * @package stange\util\conversion
-	 * @example examples color.php
+	 * @example /examples/color.php
 	 * @todo Add other notations such as LAB, etc
 	 * 
 	 */
@@ -39,7 +39,7 @@
 
 				$ds				=	DIRECTORY_SEPARATOR;
 
-				$this->dataDir	=	sprintf('%s%s..%s..%s..%sdata%scolor%s',realpath(__DIR__),$ds,$ds,$ds,$ds,$ds,$ds);
+				$this->dataDir	=	sprintf('%s%s..%s..%s..%s..%sdata%scolor%s',realpath(__DIR__),$ds,$ds,$ds,$ds,$ds,$ds,$ds);
 
 				if(!is_dir($this->dataDir)){
 

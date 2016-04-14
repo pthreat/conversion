@@ -1,8 +1,19 @@
 {
-
 	"autoload":{
-		"psr-4": { "stange\\util\\conversion" : "class" }
-		"license": { "3 Clause BSD" }
+		"psr-4": { "" : "src/" }
+	},
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name":	"Federico Stange",
+			"email":	"jpfstange@gmail.com",
+			"role":	"Lead Developer"
+		}
+	],
+	"support": {
+					"irc": "irc://irc.freenode.net/lunfardo"
+	},
+	"require": {
+					"php": "^5.4"
 	}
-
 }
