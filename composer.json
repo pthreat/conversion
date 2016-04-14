@@ -1,0 +1,8 @@
+{
+
+	"autoload":{
+		"psr-4": { "stange\\util\\conversion" : "class" }
+		"license": { "3 Clause BSD" }
+	}
+
+}
